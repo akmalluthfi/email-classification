@@ -1,10 +1,10 @@
-# Email Classification
+# House Price Prediction
 
 How to run this project:
 
 ## Clonning from repo
 
-Using Https
+Using https
 
 ```bash
 git clone https://github.com/akmalluthfi/email-classification.git
@@ -14,48 +14,29 @@ Using SSH
 
 ```bash
 git clone git@github.com:akmalluthfi/email-classification.git
+
 ```
 
-## Setup Project
+## Prepare the environment
 
-Download dependencies
+Create python virtual environment
 
+Using linux
 ```bash
-composer install
+python3 -m venv .venv
+source ./.venv/bin/activate
 ```
 
-Copy .env-example
-
-> Setting your environment
-
+Using windows
 ```bash
-cp .env-example .env
+python -m venv .venv
+source ./.venv/Scripts/activate
 ```
 
-Generate app key
-
+Install all dependencies
 ```bash
-php artisan key:generate
-```
-
-Migrate database and seeder the database
-
-```bash
-php artisan migrate --seed
+pip install -r requirements.txt
 ```
 
 ## Run program
-
-```bash
-php artisan serve
-```
-
-## API Documentation
-
-You can view the api documentation at:
-[https://documenter.getpostman.com/view/19353108/2s9YsDkv2F](https://documenter.getpostman.com/view/19353108/2s9YsDkv2F)
-
-## Login
-
-username: admin@media.pens.ac.id <br>
-password: password
+Run the index.ipynb
