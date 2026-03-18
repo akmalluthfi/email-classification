@@ -1,42 +1,23 @@
-# House Price Prediction
+# Email Classification
 
-How to run this project:
+The objective of this project is to build a robust classifier that can automatically filter or categorize email content. By utilizing various vectorization techniques and machine learning algorithms, the notebook explores how different models handle the high-dimensional nature of text data.
 
-## Clonning from repo
+## Run Locally
 
-Using https
-
+Clone the repository
 ```bash
-git clone https://github.com/akmalluthfi/email-classification.git
+  git clone https://github.com/akmalluthfi/email-classification.git
 ```
 
-Using SSH
-
+Create Python Virtual Environment
 ```bash
-git clone git@github.com:akmalluthfi/email-classification.git
-
+  python -m venv .venv
+  source ./.venv/Scripts/activate
 ```
 
-## Prepare the environment
-
-Create python virtual environment
-
-Using linux
+Install dependencies
 ```bash
-python3 -m venv .venv
-source ./.venv/bin/activate
+  pip install -r requirements.txt
 ```
 
-Using windows
-```bash
-python -m venv .venv
-source ./.venv/Scripts/activate
-```
-
-Install all dependencies
-```bash
-pip install -r requirements.txt
-```
-
-## Run program
-Run the index.ipynb
+Run the notebook
